@@ -1,10 +1,11 @@
 # Cloudvoyant
-(WIP) Cloud Recon Tool.
+(WIP) Simple AzureAD email recon Tool.
 
 Inspired by Korey McKinley's [O365Creeper](https://github.com/LMGsec/o365creeper/blob/master/o365creeper.py).  
 
-Takes a UPN or list of UPNs and returns valid email addresses.  
+## Description
+Check a tenant for existent UPNs/email addresses.
 This currently only works with Azure/AAD environments.
 
-## TODO 
-Provide cross platform functionality.
+## Usage
+aaddr.py -u gatesbill@contoso.com

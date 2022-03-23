@@ -1,4 +1,4 @@
-# Cloudvoyant
+# AADDR
 (WIP) Simple AzureAD email recon Tool.
 
 Inspired by Korey McKinley's [O365Creeper](https://github.com/LMGsec/o365creeper/blob/master/o365creeper.py).  

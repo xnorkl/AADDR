@@ -67,7 +67,7 @@ def getCredentialType(targets, mode):
         return response.text
 
     def ifExists(resp):
-        d = json.dumps(resp)
+        d = json.loads(resp)
         if d['IfExistsResult'] != 1:
             return 'Exists'
         else:
